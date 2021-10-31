@@ -51,7 +51,7 @@ function pages(id) {
         // data.forEach( e=> {
             // console.log (element)
             html = `
-                <div class="card-deck row" id="post-card">
+                <div class="card-deck row cool" id="post-card">
                     <div class="col col-lg-5 col-md-4 mb-3">
                         <div class="card h-100" onclick="pages()">
                             <div class="card-body">
