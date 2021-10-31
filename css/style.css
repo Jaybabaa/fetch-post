@@ -3,3 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.cool {
+    justify-content: center !important;
+}
+
+
+
+
+@media (max-width:425px) {
+    .row {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+}

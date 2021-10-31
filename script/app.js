@@ -8,9 +8,9 @@ function getPost() {
         data.forEach (e => {
             // console.log(element)
             html += `
-            <div class="row" id="post-card">
-                <div class="col-lg-4 mb-3">
-                    <div class="card h-100">
+            <div class="row card-deck cool" id="post-card">
+                <div class="col col-lg-5 col-md-4 mb-3 ">
+                    <div class="card ">
                         <div class="card-body">
                              <div class="d-flex justify-content-end">
                                 <h4 id="id-posts" class="text-danger">Post ${e.id}</h4>
@@ -51,7 +51,8 @@ function pages(id) {
         // data.forEach( e=> {
             // console.log (element)
             html = `
-                    <div class="col-md-4 mb-3">
+                <div class="card-deck row" id="post-card">
+                    <div class="col col-lg-5 col-md-4 mb-3">
                         <div class="card h-100" onclick="pages()">
                             <div class="card-body">
                                 <div class="d-flex justify-content-end">
@@ -67,6 +68,7 @@ function pages(id) {
                             </div>
                         </div>
                     </div>
+                </div>    
             `
             // console.log(e)
             postCard.innerHTML = html
