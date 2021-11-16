@@ -12,7 +12,7 @@ function getPost() {
                 <div class="card">
                     <div class="card-body" style="height: 300px;">
                         <div class="d-flex justify-content-end">
-                             <h5 class="mx-2 text-danger">${e.id}</h5>
+                             <h5 class="mx-2 text-danger">Post ${e.id}</h5>
                         </div>
                             <h5 class="post-title mb-4">${e.title}</h5>
                             <p class="post-body">${e.body}</p>
