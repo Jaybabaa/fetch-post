@@ -12,7 +12,7 @@ function getPost() {
                 <div class="card">
                     <div class="card-body" style="height: 300px;">
                         <div class="d-flex justify-content-end">
-                             <h5 class="mx-2 text-danger">Post ${e.id}</h5>
+                             <h5 class="mx-2 text-danger">${e.id}</h5>
                         </div>
                             <h5 class="post-title mb-4">${e.title}</h5>
                             <p class="post-body">${e.body}</p>
@@ -52,7 +52,7 @@ function pages(id) {
                         <div class="card h-100" onclick="pages()">
                             <div class="card-body">
                                 <div class="d-flex justify-content-end">
-                                    <h4 id="id-posts" class="text-danger">Post ${e.id}</h4>
+                                    <h4 id="id-posts" class="text-danger">${e.id}</h4>
                                 </div>
                                 <div>
                                     <h4 class="posts-title mb-4 text-center" id="title-posts"> ${e.title}</h4>
