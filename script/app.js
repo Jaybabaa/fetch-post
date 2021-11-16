@@ -12,13 +12,13 @@ function getPost() {
                 <div class="card">
                     <div class="card-body" style="height: 300px;">
                         <div class="d-flex justify-content-end">
-                        <h5 class="mx-2 text-danger">${e.id}</h5>
+                             <h5 class="mx-2 text-danger">${e.id}</h5>
                         </div>
-                        <h5 class="post-title mb-4">${e.title}</h5>
-                        <p class="post-body">${e.body}</p>
-                    </div>
-                    <div class="text-center py-2">
-                        <button id="click" onclick="pagePost(event)" class="btn btn-primary" data-id=${e.id}> Read More</button>
+                            <h5 class="post-title mb-4">${e.title}</h5>
+                            <p class="post-body">${e.body}</p>
+                        </div>
+                     <div class="text-center py-2">
+                        <a href="#" class="text-decoration-none d-flex justify-content-center"><button type="submit" class="btn-primary p-1" onclick="pages(${e.id})">Click me!</button></a>
                     </div>
                 </div>
             </div>
